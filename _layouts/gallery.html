@@ -6,7 +6,7 @@
         {% for gallery in site.gallery %}
           <div class="gallcard">
             <h4>{{ gallery.title }}</h4>
-            <img src="/news/gallery/img/{{ gallery.img}}" class="gallimg" alt="{{ gallery.title }}">
+            <img src="/gallery/img/{{ gallery.img}}" class="gallimg" alt="{{ gallery.title }}">
             <p class="date">{{ gallery.place }} | {{ gallery.date | date_to_string }}</p>
           </div>
          {% endfor %}

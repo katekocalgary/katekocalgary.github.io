@@ -5,7 +5,7 @@ description: World Seniors Citizens Day was proclaimed by the UN General Assembl
   in 1990 and celebrated on Aug 21 each year. Let's honor, respect and appreciate
   their lifelong contribution to the world.
 date: '2019-08-21 00:00:00'
-img: "/news/assets/img/senior.jpg"
+img: "/assets/img/senior.jpg"
 imgtitle: World Seniors Citizens Day
 ---
 

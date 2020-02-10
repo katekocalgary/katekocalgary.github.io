@@ -5,7 +5,7 @@ description: It is intriguing to watch high profile leaders perform under condit
   of extreme pressure and in the video below, Mdm. Carrie Lam delivers her apology
   ..
 date: '2019-05-28 16:09:10'
-img: "/news/assets/img/hongkong.jfif"
+img: "/assets/img/hongkong.jpg"
 New field 34: hongkong
 ---
 

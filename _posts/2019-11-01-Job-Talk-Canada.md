@@ -6,7 +6,7 @@ description: The first JobTalk class was delivered in 2008 in Calgary, Alberta, 
   over 10 years of experience working with new immigrants to Canada and helping them
   find meaningful work.
 date: '2019-11-01 14:30:51'
-img: "/news/assets/img/about2-0.webp"
+img: "/assets/img/about2-0.jpg"
 imgtitle: city
 ---
 

@@ -2,7 +2,7 @@
 title: The grannies keeping a school alive
 layout: post-view
 date: '2019-10-01 16:09:10'
-img: "/news/assets/img/grandma.png"
+img: "/assets/img/grandma.png"
 imgtitle: grandmothers
 description: These grannies may be keeping a school alive but I wonder if they realize
   that their actions are a powerful influencer for those of us who work everyday ..

@@ -4,7 +4,7 @@ layout: sub
 description: Building capacities for sustainable impact
 ---
 
-![Director of operations](https://media.licdn.com/dms/image/C4D03AQGPe18HayhFFQ/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=Xovumvuw_q0CHgH85GVESPXJK_VXQWkIXq3ELPlaISo){: .center-image }
+![Director of operations](/assets/img/director.jpg){: .center-image }
 
 MPowerCanada is enterprise for good. It is the core mission that drives everything we do and all whom we serve. That as a result of our work, lives are improved, hope is restored, confidence & self-esteem renewed and social good prevails for all. To realize our mission, we pursue the following strategies based on our unique experience, expertise & passion:
 

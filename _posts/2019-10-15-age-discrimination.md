@@ -5,7 +5,7 @@ description: Age discrimination in the workplace is real, pervasive and affects 
   of all ages. But for those who are past 55, the implications can be profound and
   life-altering.
 date: '2019-10-15 16:09:10'
-img: "/news/assets/img/age.jfif"
+img: "/assets/img/age.jpg"
 imgtitle: Age discrimination
 ---
 

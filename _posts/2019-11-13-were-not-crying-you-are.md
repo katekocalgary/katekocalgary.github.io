@@ -4,7 +4,7 @@ layout: post-view
 description: This is such a delightful story - seniors sharing their wisdom with students,
   just in time for back to school.  Seniors need meaningful engagement..
 date: '2019-09-17 16:09:10'
-img: "/news/assets/img/seniorstudent.jpg"
+img: "/assets/img/seniorstudent.jpg"
 imgtitle: senior student
 ---
 

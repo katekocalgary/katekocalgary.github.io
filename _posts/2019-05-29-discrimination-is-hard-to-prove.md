@@ -5,7 +5,7 @@ description: This article resonates because many will relate to it. Discriminati
   IS hard to prove, and so is bullying, harassment, racism and all other insidious
   acts of violations that leaves no visible signs of injury.
 date: '2019-05-29 16:09:10'
-img: "/news/assets/img/racism.jfif"
+img: "/assets/img/racism.jpg"
 imgtitle: senior
 ---
 

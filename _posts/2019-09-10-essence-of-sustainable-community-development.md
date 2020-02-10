@@ -5,7 +5,7 @@ description: It does take a whole community of supports to effect transformative
   Our latest project involve tackling seniors social isolation in the North Calgary
   region.
 date: '2019-09-10 16:09:10'
-img: "/news/assets/img/activity1.png"
+img: "/assets/img/activity1.png"
 ---
 
 It does take a whole community of supports to effect transformative change. Our latest project involve tackling seniors social isolation in the North Calgary region. It took 6 months of painstaking efforts & a never-say-die spirit to get the results we saw today - a class full of immigrant seniors showing up to learn basic English conversation. I wish you could see the smiles, hear the laughter, feel the sense of accomplishment as one after another, reluctant English speakers speak their first complete sentence in English. High fives were flying all over the room! 

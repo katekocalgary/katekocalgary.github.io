@@ -1,5 +1,5 @@
 ---
 title: Gallery
 layout: gallery
-description: Memorable moment with MPower Canada
+description: Memorable moment with MPowerCanada
 ---
