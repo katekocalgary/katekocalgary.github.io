@@ -1,0 +1,16 @@
+
+- title: Home
+  link: /news/
+  name: Home
+- title: About
+  link: /news/about.html
+  name: About
+- title: Blog
+  link: /news/notice.html
+  name: Blog
+- title: Gallery
+  link: /news/gallery.html
+  name: Gallery
+- title: Contact
+  link: /news/contact.html
+  name: Contact

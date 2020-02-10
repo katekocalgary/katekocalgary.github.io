@@ -1,14 +1,29 @@
-<!DOCTYPE HTML>
-<!--
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-Jekyll integration by Chris Bobbe | chrisbobbe.github.io
--->
-<html>
-	{%- include head.html -%}
-	<body>
-		{{- content -}}
-		{%- include footer.html -%}
-	</body>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include header.html %}
+    <main id="content" class="main-content" role="main">
+      <div class="main-wrap">
+
+        <blockquote class="twitter-tweet" width="380px" height="650"><p lang="en" dir="ltr">This is community development at its best. A senior leading other <a href="https://twitter.com/hashtag/seniors?src=hash&amp;ref_src=twsrc%5Etfw">#seniors</a> in a Bollywood dance routine. Thank you ⁦<a href="https://twitter.com/YourAlberta?ref_src=twsrc%5Etfw">@YourAlberta</a>⁩ for your support to mitigate seniors social isolation ⁦<a href="https://twitter.com/PonJosephine?ref_src=twsrc%5Etfw">@PonJosephine</a>⁩ ⁦<a href="https://twitter.com/CCCSA_Calgary?ref_src=twsrc%5Etfw">@CCCSA_Calgary</a>⁩ ⁦<a href="https://twitter.com/SymonsValleyUC?ref_src=twsrc%5Etfw">@SymonsValleyUC</a>⁩ <a href="https://t.co/gvDA5YLjOt">pic.twitter.com/gvDA5YLjOt</a></p>&mdash; MPowerCanada (@MPC5000) <a href="https://twitter.com/MPC5000/status/1197713062817460226?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <div class="recentpost">
+          <h3 class="maintitle">Recent blog</h3>
+
+            <ul>
+            {% for post in site.posts limit:1 %}
+              <li class="postlist">
+                <h2><a href="/news{{ post.url }}"> {{ post.title }}</a></h2>
+                <p>{{ post.description }}</p>
+                <p><img src="{{ post.img }}" alt="{{ post.imgtitle }}" class="mainimg"></p>
+                <!-- <p class="date">{{ post.date | date_to_string }}</p> -->       
+              </li>
+              <div class="textlink"><a href="/news/notice.html" >More blog</a></div>
+            {% endfor %}
+            </ul>
+        </div>
+      </div>
+    </main>
+    <div class="main-below"><div class="main-content"> {{ content }}</div></div>
+    {% include footer.html %}
+  </body>
 </html>

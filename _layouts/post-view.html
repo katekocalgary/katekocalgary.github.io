@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include sub-header.html %}
+    <main id="content" class="main-content" role="main">
+      <div class="topbtn">
+        <div><a href="/news/notice.html" class="movebtn">Back to List</a></div>
+        <div class="share-icons">
+          <ul>
+            <li class="share-twitter">  
+                
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url=https://katekocalgary.github.io/news{{ page.url }}&amp;via=MPC5000" target="_blank">{% include social/twitter_circle.svg %}</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <hr id="line">
+      <h2> {{ page.title }}</a></h2>
+      <div>
+        <div class="viewimg"><img src="{{ page.img }}" alt="{{ page.imgtitle }}"></div>
+        <p>{{ content }}</p>
+      </div>
+      <p><em>{{ page.date | date_to_string }}</em></p>
+      <hr id="line">
+
+      {% include footer.html %}
+    </main>
+  </body>
+</html>

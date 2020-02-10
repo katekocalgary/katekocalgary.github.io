@@ -1,18 +1,21 @@
----
-layout: default
----
-{%- include header.html -%}
-
-<!-- Main -->
-<div id="main">
-	<!-- Post -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include sub-header.html %}
+    <main id="content" class="main-content" role="main">
+      <ul>
+          {% for post in site.posts %}
+            <li class="postlist">
+              <div> 
+                <img src="{{ post.img }}" alt="{{ post.imgtitle }}" class="postimg"> 
+                <h2><a href="/news{{ post.url }}"> {{ post.title }}</a></h2>
+              </div>
+              <p>{{ post.description }}</p>
+              <div class="date">{{ post.date | date_to_string }}</div>
+              <hr id="line">
+            </li>
+          {% endfor %}
+        </ul>
+      {% include footer.html %}
+    </main>
+  </body>
+</html>

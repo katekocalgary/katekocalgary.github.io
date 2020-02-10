@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include sub-header.html %}
+    <main id="content" class="main-content" role="main">
+      <div class="contact-wrap">
+        <form action="https://formspree.io/xyyzyoyv" method="POST" class="contact-form">
+          <label> Name</label>
+          <input type="text" name="_name" placeholder="your name" maxlength="50" required>
+          <label> Email </label>
+          <input type="email" name="_replyto" placeholder="your email" maxlength="100" required>
+          <label> Message </label>
+          <textarea name="message" placeholder ="your message" rows="8" maxlength="500" required></textarea> 
+          <button type="submit" id="sendbtn"> Send</button>
+        </form>
+      </div>
+      {% include footer.html %}
+    </main>
+  </body>
+</html>
